@@ -14,8 +14,8 @@ while True:
         streak = streak + 1
         print("correct")
         if streak >= 5:
-            score = score + 2
-            print("bonus (+2 points)")
+            score = score * 2
+            print("bonus (x2 points)")
         else:
             score = score + 1
             print("+1 point")
@@ -24,6 +24,7 @@ while True:
         score = 0
         print("incorrect")
         print("game over")
+        print("~NEW GAME~")
     print("score:")
     print(score)
     print("streak:")
